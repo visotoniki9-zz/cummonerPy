@@ -4,4 +4,4 @@ Just run:
 ```
 python cummoner.py
 ```
-It will create a downloads folder and a folder for each chapter like, I. First Time For Everything, now don't expect this thing to be fast, i did this as an exercise for learning scraping in python. It does use async but the code could be improved ill probably do it later... maybe. Anyway it takes about 2min to finish.
+It will create a downloads folder and inside a folder for each chapter like, I. First Time For Everything, now don't expect this thing to be fast, I made this as an exercise for learning scraping with python. It does use async but the code could be improved, ill probably do it later... maybe. Anyway it takes about 2min to finish.
