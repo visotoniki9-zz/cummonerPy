@@ -1,0 +1,26 @@
+[project]
+name = ""
+version = ""
+description = ""
+authors = [
+    {name = "visotoniki9", email = "d.simon.ssx0@gmail.com"},
+]
+dependencies = [
+    "beautifulsoup4~=4.10",
+    "aiohttp~=3.8",
+    "asyncio~=3.4",
+    "aiofiles~=0.7",
+]
+requires-python = ">=3.9"
+dynamic = ["classifiers"]
+license = {text = "MIT"}
+
+[project.urls]
+homepage = ""
+
+[build-system]
+requires = ["pdm-pep517"]
+build-backend = "pdm.pep517.api"
+
+[tool]
+[tool.pdm]
