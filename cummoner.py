@@ -47,7 +47,7 @@ async def main():
                     # Get page url
                     page_url = page.find('a', href=True)['href']
                     # Append page url to tasks list
-                    pages_url_tasks.append(asyncio.ensure_future(
+                    pages_url_tasks.append(asyncio.create_task(
                         getImageUrl(session, page_url)))
 
                 image_urls = await asyncio.gather(*pages_url_tasks)
@@ -57,7 +57,7 @@ async def main():
                     if not os.path.exists(f'downloads/{chapter_title}/'):
                         os.makedirs(f'downloads/{chapter_title}/')
                     path = f'downloads/{chapter_title}/page{index+1}'
-                    download_images_task.append(asyncio.ensure_future(
+                    download_images_task.append(asyncio.create_task(
                         downloadImage(session, image_url, path)))
 
                 await asyncio.gather(*download_images_task)
