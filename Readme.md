@@ -1,6 +1,6 @@
 # CummonerPy
 This is a simple script to download all the chapters from [The Cummoner](https://totempole666.com/) adult webcomic from its official website, all neatly organized per chapters.  
-This script also exists in Javascript/Node: [https://github.com/visotoniki9/cummonerPy](https://github.com/visotoniki9/cummonerJs)
+This script also exists in Javascript/Node: [https://github.com/visotoniki9/cummonerJs](https://github.com/visotoniki9/cummonerJs)
 ## How to run 
 ```
 pdm install
